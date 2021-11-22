@@ -57,3 +57,15 @@ jupyter lab build --minimize=False
 ```bash
 pip uninstall imjoy-jupyterlab
 ```
+
+
+### Note 
+```
+npm run watch:labextension
+```
+
+```
+pip install jupyter_packaging
+npm run install:extension
+jupyter lab
+```
