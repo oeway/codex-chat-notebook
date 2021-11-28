@@ -11,7 +11,7 @@
             "name": "image analysis",
             "source": "image-analysis.md",
             "description": "A basic prompt for image analysis in Jupyter Notebooks",
-            "tags": []
+            "tags": ["image-analysis"]
         }
     ]
 }

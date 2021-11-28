@@ -1,6 +1,6 @@
 {
   "name": "codex-chat-notebook",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Doing data science without programming skills by chatting with OpenAI Codex",
   "keywords": [
     "jupyter",
