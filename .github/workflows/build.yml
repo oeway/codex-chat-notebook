@@ -50,5 +50,5 @@ jobs:
       run: |
         jlpm
         python -m pip install .
-        jupyter labextension list 2>&1 | grep -ie "imjoy-jupyterlab.*OK"
+        jupyter labextension list 2>&1 | grep -ie "codex-chat-notebook.*OK"
         python -m jupyterlab.browser_check

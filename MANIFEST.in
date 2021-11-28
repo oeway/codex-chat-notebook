@@ -1,14 +1,14 @@
 include LICENSE
 include README.md
 include pyproject.toml
-include jupyter-config/imjoy-jupyterlab.json
+include jupyter-config/codex-chat-notebook.json
 
 include package.json
 include install.json
 include ts*.json
 include yarn.lock
 
-graft imjoy-jupyterlab/labextension
+graft codex-chat-notebook/labextension
 
 # Javascript files
 graft lib

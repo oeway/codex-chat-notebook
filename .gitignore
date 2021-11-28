@@ -3,8 +3,9 @@ node_modules/
 *.egg-info/
 .ipynb_checkpoints
 *.tsbuildinfo
-imjoy-jupyterlab/labextension
+codex-chat-notebook/labextension
 *.ipynb
+data/
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python

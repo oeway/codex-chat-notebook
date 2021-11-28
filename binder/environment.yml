@@ -1,10 +1,10 @@
-# a mybinder.org-ready environment for demoing imjoy-jupyterlab
+# a mybinder.org-ready environment for demoing codex-chat-notebook
 # this environment may also be used locally on Linux/MacOS/Windows, e.g.
 #
 #   conda env update --file binder/environment.yml
-#   conda activate imjoy-jupyterlab-demo
+#   conda activate codex-chat-notebook-demo
 #
-name: imjoy-jupyterlab-demo
+name: codex-chat-notebook-demo
 
 channels:
   - conda-forge

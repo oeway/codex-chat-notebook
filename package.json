@@ -1,5 +1,5 @@
 {
-  "name": "imjoy-jupyterlab",
+  "name": "codex-chat-notebook",
   "version": "0.1.0",
   "description": "Controlling Jupyterlab in Imjoy",
   "keywords": [
@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/imjoy-team/imjoy-jupyterlab",
+  "homepage": "https://github.com/oeway/codex-chat-notebook",
   "bugs": {
-    "url": "https://github.com/imjoy-team/imjoy-jupyterlab/issues"
+    "url": "https://github.com/oeway/codex-chat-notebook/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -24,14 +24,14 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imjoy-team/imjoy-jupyterlab.git"
+    "url": "https://github.com/oeway/codex-chat-notebook.git"
   },
   "scripts": {
     "build": "jlpm run build:labextension:dev",
     "build:prod": "jlpm run build:labextension",
     "build:labextension": "jupyter labextension build .",
     "build:labextension:dev": "jupyter labextension build --development True .",
-    "clean:labextension": "rimraf imjoy-jupyterlab/labextension",
+    "clean:labextension": "rimraf codex-chat-notebook/labextension",
     "clean:all": "jlpm run clean:labextension",
     "install:extension": "jupyter labextension develop --overwrite .",
     "prepare": "jlpm run build:prod",
@@ -59,6 +59,6 @@
   "styleModule": "style/index.js",
   "jupyterlab": {
     "extension": true,
-    "outputDir": "imjoy-jupyterlab/labextension"
+    "outputDir": "codex-chat-notebook/labextension"
   }
 }

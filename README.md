@@ -1,6 +1,6 @@
-# imjoy-jupyterlab
+# codex-chat-notebook
 
-![Github Actions Status](https://github.com/imjoy-team/imjoy-jupyterlab/workflows/Build/badge.svg)
+![Github Actions Status](https://github.com/oeway/codex-chat-notebook/workflows/Build/badge.svg)
 
 Controlling Jupyterlab in Imjoy
 
@@ -11,7 +11,7 @@ Controlling Jupyterlab in Imjoy
 ## Install
 
 ```bash
-pip install imjoy-jupyterlab
+pip install codex-chat-notebook
 ```
 
 ## Contributing
@@ -26,7 +26,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the imjoy-jupyterlab directory
+# Change directory to the codex-chat-notebook directory
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
@@ -55,7 +55,7 @@ jupyter lab build --minimize=False
 ### Uninstall
 
 ```bash
-pip uninstall imjoy-jupyterlab
+pip uninstall codex-chat-notebook
 ```
 
 

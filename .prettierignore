@@ -4,4 +4,4 @@ node_modules
 **/package.json
 **/static
 build
-imjoy-jupyterlab/labextension
+codex-chat-notebook/labextension

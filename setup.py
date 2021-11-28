@@ -1,5 +1,5 @@
 """
-imjoy-jupyterlab setup
+codex-chat-notebook setup
 """
 import json
 from pathlib import Path
@@ -16,7 +16,7 @@ import setuptools
 HERE = Path(__file__).parent.resolve()
 
 # The name of the project
-name = "imjoy-jupyterlab"
+name = "codex-chat-notebook"
 
 lab_path = (HERE / name / "labextension")
 
@@ -29,7 +29,7 @@ package_data_spec = {
     name: ["*"],
 }
 
-labext_name = "imjoy-jupyterlab"
+labext_name = "codex-chat-notebook"
 
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, str(lab_path), "**"),
