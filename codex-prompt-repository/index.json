@@ -6,6 +6,12 @@
             "source": "default.md",
             "description": "A basic prompt for generating python code in Jupyter Notebooks",
             "tags": []
+        },
+        {
+            "name": "image analysis",
+            "source": "image-analysis.md",
+            "description": "A basic prompt for image analysis in Jupyter Notebooks",
+            "tags": []
         }
     ]
 }
