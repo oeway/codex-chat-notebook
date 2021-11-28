@@ -2,7 +2,7 @@
 
 ![Github Actions Status](https://github.com/oeway/codex-chat-notebook/workflows/Build/badge.svg)
 
-Controlling Jupyterlab in Imjoy
+Doing data science without programming skills by chatting with OpenAI Codex
 
 ## Requirements
 
