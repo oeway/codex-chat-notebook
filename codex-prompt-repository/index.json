@@ -1,0 +1,11 @@
+{
+    "base_url": "https://raw.githubusercontent.com/oeway/codex-chat-notebook/master/codex-prompt-repository",
+    "items": [
+        {
+            "name": "default",
+            "source": "default.md",
+            "description": "A basic prompt for generating python code in Jupyter Notebooks",
+            "tags": []
+        }
+    ]
+}
