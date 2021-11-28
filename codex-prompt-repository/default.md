@@ -8,5 +8,9 @@ In the following cases, it should generate a special command string instead of a
  - To execute all the cells, generate "%run-all"
  - To execute the current or active cell, generate "%run"
 
+-----
+
 ## Print hello world
+```
 print("Hello world")
+```
