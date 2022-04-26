@@ -8,10 +8,16 @@
             "tags": []
         },
         {
-            "name": "image analysis",
+            "name": "Image Analysis",
             "source": "image-analysis.md",
             "description": "A basic prompt for image analysis in Jupyter Notebooks",
             "tags": ["image-analysis"]
+        },
+        {
+            "name": "CellPose Segmentation",
+            "source": "cellpose-image-segmentation.md",
+            "description": "A prompt for image segmentation with CellPose in Jupyter Notebooks",
+            "tags": ["image-analysis", "cellpose"]
         }
     ]
 }
