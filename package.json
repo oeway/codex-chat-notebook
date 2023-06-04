@@ -1,6 +1,6 @@
 {
   "name": "codex-chat-notebook",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Doing data science without programming skills by chatting with OpenAI Codex",
   "keywords": [
     "jupyter",
@@ -45,7 +45,7 @@
     "@jupyterlab/docregistry": "^3.2.4",
     "@jupyterlab/notebook": "^3.2.4",
     "@phosphor/disposable": "^1.3.1",
-    "openai-api": "^1.2.6"
+    "openai": "^3.2.1"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
